@@ -43,7 +43,7 @@
   "private": true,
   "sideEffects": false,
   "dependencies": {
-    "@unocss/core": "^0.56.4",
+    "@unocss/core": "^0.58.0",
     "@unocss/preset-uno": "^0.56.4",
     "@webstudio-is/css-engine": "workspace:*",
     "change-case": "^5.0.2",
