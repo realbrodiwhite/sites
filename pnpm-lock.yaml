@@ -924,8 +924,8 @@ importers:
         specifier: ^3.3.1
         version: 3.3.1
       mdn-data:
-        specifier: 2.0.32
-        version: 2.0.32
+        specifier: 2.3.0
+        version: 2.3.0
       tsx:
         specifier: ^3.12.8
         version: 3.12.8
@@ -13193,8 +13193,8 @@ packages:
   /mdn-data@2.0.30:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
 
-  /mdn-data@2.0.32:
-    resolution: {integrity: sha512-dGzrfhOPm47P8qlChU77TGlCEcFNOCDAhCbHP53LST3FR5jSB5JSHaPjyYW2uFd2CV6D6z4tzCGW09pTxSn0aA==}
+  /mdn-data@2.3.0:
+    resolution: {integrity: sha512-BhLaX4PxsBIBRqqmO3EIVpwUL0dma/evS8RjGwIVomw61jRikAMpeivHEMqH+VBZWQhuL+DWiImGbEIcDqu8/Q==}
     dev: true
 
   /mdurl@1.0.1:
