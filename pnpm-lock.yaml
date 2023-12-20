@@ -230,8 +230,8 @@ importers:
         specifier: ^6.1.7
         version: 6.1.7(react@18.2.0)
       hono:
-        specifier: ^3.7.3
-        version: 3.7.3
+        specifier: ^3.11.7
+        version: 3.11.7
       hyphenate-style-name:
         specifier: ^1.0.4
         version: 1.0.4
@@ -11483,8 +11483,8 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /hono@3.7.3:
-    resolution: {integrity: sha512-BQHdLPXb30hQ9k+04byeSi4QMHk20U1GUq0nT5kGUCGZtxeYhAS7mUJ1wgjn4SCvgiw1rcc6oBOAlwJQ7jQymA==}
+  /hono@3.11.7:
+    resolution: {integrity: sha512-TcfAq7IdipF+9coxnuzYlSSBXbm9mTyWjjagLCv/2ampboNcKJdi+XCK5G48mHQtpI5+9Rj3J4FfcGgw9vzIww==}
     engines: {node: '>=16.0.0'}
     dev: false
 
