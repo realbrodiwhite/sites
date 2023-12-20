@@ -1262,8 +1262,8 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
       wrangler:
-        specifier: ^2.18.0
-        version: 2.18.0
+        specifier: ^2.20.1
+        version: 2.20.1
 
   packages/generate-arg-types:
     dependencies:
@@ -17370,8 +17370,8 @@ packages:
   /wordwrap@1.0.0:
     resolution: {integrity: sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==}
 
-  /wrangler@2.18.0:
-    resolution: {integrity: sha512-e+WJ019AbioAf9u4YiOxjrfKqzOP8K3kDAM9v+lGQa+WKsae/UVcMb3Hn5iMIlIt2fc622WefZfuSNRpkAzrSA==}
+  /wrangler@2.20.1:
+    resolution: {integrity: sha512-5fl7xF7OkRHim0B0kVXtmSPMrRhRKZ3rqAdn9tKYgi6MnZOvWC+HesGKpNxpVUWsJYpPfJ5AU6gZ6gEL1OLmFQ==}
     engines: {node: '>=16.13.0'}
     hasBin: true
     dependencies:
