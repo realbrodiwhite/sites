@@ -881,8 +881,8 @@ importers:
   packages/css-data:
     dependencies:
       '@unocss/core':
-        specifier: ^0.56.4
-        version: 0.56.4
+        specifier: ^0.58.0
+        version: 0.58.0
       '@unocss/preset-uno':
         specifier: ^0.56.4
         version: 0.56.4
@@ -8207,6 +8207,10 @@ packages:
 
   /@unocss/core@0.56.4:
     resolution: {integrity: sha512-9DL+2adfjWWnFWp2QOJTq2OcfKKo++agaXnCX7CzeD8KgfWCBqxs2RDoxP3HrDbTflhDHdbjz23B+vJoVykhZw==}
+    dev: false
+
+  /@unocss/core@0.58.0:
+    resolution: {integrity: sha512-KhABQXGE2AgtO9vE28d+HnciuyGDcuygsnQdUwlzUuR4K05OSw2kRE9emRN4HaMycD+gA/zDbQrJxTXb6mQUiA==}
     dev: false
 
   /@unocss/extractor-arbitrary-variants@0.56.4:
