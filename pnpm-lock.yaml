@@ -122,8 +122,8 @@ importers:
         specifier: ^7.47.0
         version: 7.47.0(@remix-run/node@1.19.2)(@remix-run/react@1.19.2)(react@18.2.0)
       '@sentry/types':
-        specifier: 7.47.0
-        version: 7.47.0
+        specifier: 7.90.0
+        version: 7.90.0
       '@trpc/server':
         specifier: ^10.38.1
         version: 10.38.1
@@ -6681,6 +6681,11 @@ packages:
 
   /@sentry/types@7.47.0:
     resolution: {integrity: sha512-GxXocplN0j1+uczovHrfkykl9wvkamDtWxlPUQgyGlbLGZn+UH1Y79D4D58COaFWGEZdSNKr62gZAjfEYu9nQA==}
+    engines: {node: '>=8'}
+    dev: false
+
+  /@sentry/types@7.90.0:
+    resolution: {integrity: sha512-dA0Mtba5jYlcQ6xBsGILZuFq4NGrWLfr2ys036z2JE4H1+3PxOVERlD3Di7p+WKYM5gjFw10Hn3EgUV979E3dA==}
     engines: {node: '>=8'}
     dev: false
 
