@@ -44,7 +44,7 @@
   "sideEffects": false,
   "dependencies": {
     "@unocss/core": "^0.58.0",
-    "@unocss/preset-uno": "^0.56.4",
+    "@unocss/preset-uno": "^0.58.0",
     "@webstudio-is/css-engine": "workspace:*",
     "change-case": "^5.0.2",
     "colord": "^2.9.3",
