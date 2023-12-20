@@ -24,7 +24,7 @@
     "react-dom": "^18.2.0",
     "strip-indent": "^4.0.0",
     "type-fest": "^4.3.1",
-    "typescript": "5.2.2",
+    "typescript": "5.3.3",
     "zod": "^3.21.4"
   },
   "peerDependencies": {
