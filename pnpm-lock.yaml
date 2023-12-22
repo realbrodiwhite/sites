@@ -122,8 +122,8 @@ importers:
         specifier: ^7.47.0
         version: 7.47.0(@remix-run/node@1.19.2)(@remix-run/react@1.19.2)(react@18.2.0)
       '@sentry/types':
-        specifier: 7.90.0
-        version: 7.90.0
+        specifier: 7.91.0
+        version: 7.91.0
       '@trpc/server':
         specifier: ^10.38.1
         version: 10.38.1
@@ -6684,8 +6684,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /@sentry/types@7.90.0:
-    resolution: {integrity: sha512-dA0Mtba5jYlcQ6xBsGILZuFq4NGrWLfr2ys036z2JE4H1+3PxOVERlD3Di7p+WKYM5gjFw10Hn3EgUV979E3dA==}
+  /@sentry/types@7.91.0:
+    resolution: {integrity: sha512-bcQnb7J3P3equbCUc+sPuHog2Y47yGD2sCkzmnZBjvBT0Z1B4f36fI/5WjyZhTjLSiOdg3F2otwvikbMjmBDew==}
     engines: {node: '>=8'}
     dev: false
 
@@ -8444,7 +8444,7 @@ packages:
       '@vue/reactivity-transform': 3.3.4
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
-      magic-string: 0.30.1
+      magic-string: 0.30.5
       postcss: 8.4.27
       source-map-js: 1.0.2
     dev: false
@@ -8463,7 +8463,7 @@ packages:
       '@vue/compiler-core': 3.3.4
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
-      magic-string: 0.30.1
+      magic-string: 0.30.5
     dev: false
 
   /@vue/reactivity@3.3.4:
@@ -16327,7 +16327,7 @@ packages:
       estree-walker: 3.0.3
       is-reference: 3.0.1
       locate-character: 3.0.0
-      magic-string: 0.30.1
+      magic-string: 0.30.5
       periscopic: 3.1.0
     dev: false
 
