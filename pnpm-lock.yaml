@@ -478,8 +478,8 @@ importers:
         specifier: ^2.0.0
         version: 2.4.1
       '@netlify/remix-edge-adapter':
-        specifier: 1.2.0
-        version: 1.2.0
+        specifier: 3.1.0
+        version: 3.1.0(@remix-run/server-runtime@1.19.2)
       '@remix-run/node':
         specifier: ^1.19.2
         version: 1.19.2
@@ -4980,14 +4980,19 @@ packages:
       - typescript
     dev: false
 
-  /@netlify/remix-edge-adapter@1.2.0:
-    resolution: {integrity: sha512-tviSW+Bu+Z56aCr4TnEYNaUgDUhDZOyimYoigGzFmjQhq3yGmOpSTkkp2WBNR+JuRIFH2MsqV+eCFoBVrAy/7g==}
+  /@netlify/remix-edge-adapter@3.1.0(@remix-run/server-runtime@1.19.2):
+    resolution: {integrity: sha512-BSZP3ZN0mSbbsntYDV+7NGo15R5yhs0cm2NJGEDQlABmHwgJbAKxnk1hsztk4WcoQ7HK2jX8bOc4Lk6YNCQE1w==}
     dependencies:
-      '@netlify/remix-runtime': 1.1.0
+      '@netlify/remix-runtime': 2.1.0(@remix-run/server-runtime@1.19.2)
+      isbot: 3.7.1
+    transitivePeerDependencies:
+      - '@remix-run/server-runtime'
     dev: false
 
-  /@netlify/remix-runtime@1.1.0:
-    resolution: {integrity: sha512-9v/j6kEvsnaD3uStLVng2HJhWBVjZ78SmiWMpgUVbOJyStrhz5ivqsoU54m47kCwviKXhWt36U8RYczgMgkG+w==}
+  /@netlify/remix-runtime@2.1.0(@remix-run/server-runtime@1.19.2):
+    resolution: {integrity: sha512-kXP7D6Rp2KkFWWV+il7ZaPQsa/uFpxwn9MC95kPRbJEnkGBMPvqFr1zk6Kjgmf28Ymqg3oXHBIv8pIKRctssBQ==}
+    peerDependencies:
+      '@remix-run/server-runtime': ^2.0.0
     dependencies:
       '@remix-run/server-runtime': 1.19.2
     dev: false
