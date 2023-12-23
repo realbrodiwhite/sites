@@ -1253,8 +1253,8 @@ importers:
         version: link:../form-handlers
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^3.19.0
-        version: 3.19.0(patch_hash=trvrj7ncmikk3azmkslezmizny)
+        specifier: ^4.0.0
+        version: 4.20231218.0
       '@webstudio-is/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
@@ -3262,7 +3262,12 @@ packages:
 
   /@cloudflare/workers-types@3.19.0(patch_hash=trvrj7ncmikk3azmkslezmizny):
     resolution: {integrity: sha512-0FRcsz7Ea3jT+gc5gKPIYciykm1bbAaTpygdzpCwGt0RL+V83zWnYN30NWDW4rIHj/FHtz+MIuBKS61C8l7AzQ==}
+    dev: false
     patched: true
+
+  /@cloudflare/workers-types@4.20231218.0:
+    resolution: {integrity: sha512-Vs1FKjfUjXYGbCsXzkl+ITp0Iyb6QiW6+vTERTNThC+v96T0IvPVAioH4tT20rXwoxAfxh380mAaxYtTrJUNVg==}
+    dev: true
 
   /@colors/colors@1.5.0:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
