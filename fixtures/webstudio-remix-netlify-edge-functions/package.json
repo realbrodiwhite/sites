@@ -10,7 +10,7 @@
     "fixtures:build": "webstudio build --template netlify-edge-functions --preview && pnpm prettier --write ./app/ ./package.json"
   },
   "dependencies": {
-    "@netlify/functions": "^1.3.0",
+    "@netlify/functions": "^2.0.0",
     "@netlify/edge-functions": "^2.0.0",
     "@netlify/remix-edge-adapter": "1.2.0",
     "@remix-run/react": "^1.19.2",
