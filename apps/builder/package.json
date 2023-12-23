@@ -44,7 +44,7 @@
     "@trpc/server": "^10.38.1",
     "@upstash/ratelimit": "^0.4.4",
     "@vercel/edge": "^1.1.0",
-    "@vercel/kv": "^0.2.3",
+    "@vercel/kv": "^1.0.0",
     "@vercel/remix": "^1.19.2",
     "@webstudio-is/ai": "workspace:*",
     "@webstudio-is/asset-uploader": "workspace:*",
