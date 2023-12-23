@@ -42,7 +42,7 @@
     "@sentry/remix": "^7.47.0",
     "@sentry/types": "7.91.0",
     "@trpc/server": "^10.38.1",
-    "@upstash/ratelimit": "^0.4.4",
+    "@upstash/ratelimit": "^1.0.0",
     "@vercel/edge": "^1.1.0",
     "@vercel/kv": "^0.2.3",
     "@vercel/remix": "^1.19.2",
