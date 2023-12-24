@@ -72,7 +72,7 @@
     "@webstudio-is/trpc-interface": "workspace:*",
     "change-case": "^5.0.2",
     "colord": "^2.9.3",
-    "date-fns": "^2.30.0",
+    "date-fns": "^3.0.0",
     "debug": "^4.3.4",
     "detect-font": "^0.1.5",
     "downshift": "^6.1.7",
