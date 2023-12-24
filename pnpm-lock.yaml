@@ -110,8 +110,8 @@ importers:
         specifier: ^1.19.2
         version: 1.19.2(@cloudflare/workers-types@3.19.0)
       '@remix-run/node':
-        specifier: ^1.19.2
-        version: 1.19.2
+        specifier: ^2.0.0
+        version: 2.4.1(typescript@5.3.3)
       '@remix-run/react':
         specifier: ^1.19.2
         version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
@@ -120,7 +120,7 @@ importers:
         version: 1.19.2
       '@sentry/remix':
         specifier: ^7.47.0
-        version: 7.47.0(@remix-run/node@1.19.2)(@remix-run/react@1.19.2)(react@18.2.0)
+        version: 7.47.0(@remix-run/node@2.4.1)(@remix-run/react@1.19.2)(react@18.2.0)
       '@sentry/types':
         specifier: 7.91.0
         version: 7.91.0
@@ -405,8 +405,8 @@ importers:
   fixtures/webstudio-custom-template:
     dependencies:
       '@remix-run/node':
-        specifier: ^1.19.2
-        version: 1.19.2
+        specifier: ^2.0.0
+        version: 2.4.1(typescript@5.3.3)
       '@remix-run/react':
         specifier: ^1.19.2
         version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
@@ -481,8 +481,8 @@ importers:
         specifier: 3.1.0
         version: 3.1.0(@remix-run/server-runtime@1.19.2)
       '@remix-run/node':
-        specifier: ^1.19.2
-        version: 1.19.2
+        specifier: ^2.0.0
+        version: 2.4.1(typescript@5.3.3)
       '@remix-run/react':
         specifier: ^1.19.2
         version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
@@ -548,8 +548,8 @@ importers:
         specifier: ^2.0.0
         version: 2.2.0(@netlify/functions@2.4.1)(typescript@5.3.3)
       '@remix-run/node':
-        specifier: ^1.19.2
-        version: 1.19.2
+        specifier: ^2.0.0
+        version: 2.4.1(typescript@5.3.3)
       '@remix-run/react':
         specifier: ^1.19.2
         version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
@@ -609,8 +609,8 @@ importers:
   fixtures/webstudio-remix-vercel:
     dependencies:
       '@remix-run/node':
-        specifier: ^1.19.2
-        version: 1.19.2
+        specifier: ^2.0.0
+        version: 2.4.1(typescript@5.3.3)
       '@remix-run/react':
         specifier: ^1.19.2
         version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
@@ -6613,9 +6613,9 @@ packages:
     engines: {node: '>=14.0.0'}
     dependencies:
       '@remix-run/server-runtime': 1.19.2
-      '@remix-run/web-fetch': 4.3.6
-      '@remix-run/web-file': 3.0.3
-      '@remix-run/web-stream': 1.0.4
+      '@remix-run/web-fetch': 4.4.2
+      '@remix-run/web-file': 3.1.0
+      '@remix-run/web-stream': 1.1.0
       '@web3-storage/multipart-parser': 1.0.0
       abort-controller: 3.0.0
       cookie-signature: 1.2.0
@@ -6703,29 +6703,11 @@ packages:
       source-map: 0.7.4
       typescript: 5.3.3
 
-  /@remix-run/web-blob@3.0.5:
-    resolution: {integrity: sha512-Mungj3erqCrq0+5zU/34NkeC2g+U7K6Uwa8uNiZgANvw0Wc64wKglk4MPQJZA0Y2tgPYXyrRn7uw4q75j6Hhww==}
-    dependencies:
-      '@remix-run/web-stream': 1.1.0
-      web-encoding: 1.1.5
-
   /@remix-run/web-blob@3.1.0:
     resolution: {integrity: sha512-owGzFLbqPH9PlKb8KvpNJ0NO74HWE2euAn61eEiyCXX/oteoVzTVSN8mpLgDjaxBf2btj5/nUllSUgpyd6IH6g==}
     dependencies:
       '@remix-run/web-stream': 1.1.0
       web-encoding: 1.1.5
-
-  /@remix-run/web-fetch@4.3.6:
-    resolution: {integrity: sha512-ifadyJS+/7W6LhKyA8tIR9fBIPwLCFVpl1YCYg5i0ikykiXxE3IWtPVB1G51AJFghc1YgR7rq8BRJLsJeUbE5Q==}
-    engines: {node: ^10.17 || >=12.3}
-    dependencies:
-      '@remix-run/web-blob': 3.0.5
-      '@remix-run/web-form-data': 3.0.5
-      '@remix-run/web-stream': 1.0.4
-      '@web3-storage/multipart-parser': 1.0.0
-      abort-controller: 3.0.0
-      data-uri-to-buffer: 3.0.1
-      mrmime: 1.0.1
 
   /@remix-run/web-fetch@4.4.2:
     resolution: {integrity: sha512-jgKfzA713/4kAW/oZ4bC3MoLWyjModOVDjFPNseVqcJKSafgIscrYL9G50SurEYLswPuoU3HzSbO0jQCMYWHhA==}
@@ -6740,30 +6722,15 @@ packages:
       data-uri-to-buffer: 3.0.1
       mrmime: 1.0.1
 
-  /@remix-run/web-file@3.0.3:
-    resolution: {integrity: sha512-yPf6MSXNcaQ4H1vkT/TSgImnqqfvfVKZzjd0vz3wvR0MM1NmrYfLbSbwfFLXdESFnQpXItbyKsgYGeAUEawgBg==}
-    dependencies:
-      '@remix-run/web-blob': 3.0.5
-
   /@remix-run/web-file@3.1.0:
     resolution: {integrity: sha512-dW2MNGwoiEYhlspOAXFBasmLeYshyAyhIdrlXBi06Duex5tDr3ut2LFKVj7tyHLmn8nnNwFf1BjNbkQpygC2aQ==}
     dependencies:
       '@remix-run/web-blob': 3.1.0
 
-  /@remix-run/web-form-data@3.0.5:
-    resolution: {integrity: sha512-txXJDzjDuTxF8MFvEp9AA2HF3oPcvmlE1I/6HIxeGpX3vpBtrCPw5KQ/nzgBZNuAxyxEm8ps6Ds/UZwoDyfGsQ==}
-    dependencies:
-      web-encoding: 1.1.5
-
   /@remix-run/web-form-data@3.1.0:
     resolution: {integrity: sha512-NdeohLMdrb+pHxMQ/Geuzdp0eqPbea+Ieo8M8Jx2lGC6TBHsgHzYcBvr0LyPdPVycNRDEpWpiDdCOdCryo3f9A==}
     dependencies:
       web-encoding: 1.1.5
-
-  /@remix-run/web-stream@1.0.4:
-    resolution: {integrity: sha512-SVO42pH21I1sAhksGEM8ZBV/jc1mz6knZSg6Qo/2HPy9JTvtUykm3QMHtF2OMCTUXxdRW+4E/rphkPRyGc8WKw==}
-    dependencies:
-      web-streams-polyfill: 3.2.1
 
   /@remix-run/web-stream@1.1.0:
     resolution: {integrity: sha512-KRJtwrjRV5Bb+pM7zxcTJkhIqWWSy+MYsIxHK+0m5atcznsf15YwUBWHWulZerV2+vvHH1Lp1DD7pw6qKW8SgA==}
@@ -6870,7 +6837,7 @@ packages:
       tslib: 1.14.1
     dev: false
 
-  /@sentry/remix@7.47.0(@remix-run/node@1.19.2)(@remix-run/react@1.19.2)(react@18.2.0):
+  /@sentry/remix@7.47.0(@remix-run/node@2.4.1)(@remix-run/react@1.19.2)(react@18.2.0):
     resolution: {integrity: sha512-CFWpwmB5nXwBLPdyT5k1TPRyf8+KFxCmOy0R4w/s8FcknnSsu0bIH8FJwDrVtFCq9LPpSlIG0KL/e7OBiiOxfA==}
     engines: {node: '>=14'}
     hasBin: true
@@ -6879,7 +6846,7 @@ packages:
       '@remix-run/react': 1.x
       react: 16.x || 17.x || 18.x
     dependencies:
-      '@remix-run/node': 1.19.2
+      '@remix-run/node': 2.4.1(typescript@5.3.3)
       '@remix-run/react': 1.19.2(react-dom@18.2.0)(react@18.2.0)
       '@sentry/cli': 2.2.0
       '@sentry/core': 7.47.0
@@ -8597,7 +8564,7 @@ packages:
   /@vue/compiler-core@3.3.4:
     resolution: {integrity: sha512-cquyDNvZ6jTbf/+x+AgM2Arrp6G4Dzbb0R64jiG804HRMfRiFXWI6kqUVqZ6ZR0bQhIoQjB4+2bhNtVwndW15g==}
     dependencies:
-      '@babel/parser': 7.23.0
+      '@babel/parser': 7.23.6
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
       source-map-js: 1.0.2
@@ -8613,7 +8580,7 @@ packages:
   /@vue/compiler-sfc@3.3.4:
     resolution: {integrity: sha512-6y/d8uw+5TkCuzBkgLS0v3lSM3hJDntFEiUORM11pQ/hKvkhSKZrXW6i69UyXlJQisJxuUEJKAWEqWbWsLeNKQ==}
     dependencies:
-      '@babel/parser': 7.23.0
+      '@babel/parser': 7.23.6
       '@vue/compiler-core': 3.3.4
       '@vue/compiler-dom': 3.3.4
       '@vue/compiler-ssr': 3.3.4
@@ -8635,7 +8602,7 @@ packages:
   /@vue/reactivity-transform@3.3.4:
     resolution: {integrity: sha512-MXgwjako4nu5WFLAjpBnCj/ieqcjE2aJBINUNQzkZQfzIZA4xn+0fV1tIYBJvvva3N3OvKGofRLvQIwEQPpaXw==}
     dependencies:
-      '@babel/parser': 7.23.0
+      '@babel/parser': 7.23.6
       '@vue/compiler-core': 3.3.4
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
