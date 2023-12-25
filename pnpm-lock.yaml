@@ -113,14 +113,14 @@ importers:
         specifier: ^2.0.0
         version: 2.4.1(typescript@5.3.3)
       '@remix-run/react':
-        specifier: ^1.19.2
-        version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^2.0.0
+        version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@remix-run/serve':
         specifier: ^1.19.2
         version: 1.19.2
       '@sentry/remix':
         specifier: ^7.47.0
-        version: 7.47.0(@remix-run/node@2.4.1)(@remix-run/react@1.19.2)(react@18.2.0)
+        version: 7.47.0(@remix-run/node@2.4.1)(@remix-run/react@2.4.1)(react@18.2.0)
       '@sentry/types':
         specifier: 7.91.0
         version: 7.91.0
@@ -300,19 +300,19 @@ importers:
         version: 17.4.0(react-dom@18.2.0)(react@18.2.0)
       remix-auth:
         specifier: ^3.2.2
-        version: 3.2.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)
+        version: 3.2.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)
       remix-auth-form:
         specifier: ^1.1.2
-        version: 1.1.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)
+        version: 1.1.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)
       remix-auth-github:
         specifier: ^1.1.1
-        version: 1.1.1(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react@18.2.0)
+        version: 1.1.1(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)(react@18.2.0)
       remix-auth-google:
         specifier: ^1.1.0
-        version: 1.1.0(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react@18.2.0)(remix-auth@3.2.2)
+        version: 1.1.0(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)(react@18.2.0)(remix-auth@3.2.2)
       remix-island:
         specifier: ^0.1.2
-        version: 0.1.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react-dom@18.2.0)(react@18.2.0)
+        version: 0.1.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)(react-dom@18.2.0)(react@18.2.0)
       shallow-equal:
         specifier: ^3.1.0
         version: 3.1.0
@@ -408,8 +408,8 @@ importers:
         specifier: ^2.0.0
         version: 2.4.1(typescript@5.3.3)
       '@remix-run/react':
-        specifier: ^1.19.2
-        version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^2.0.0
+        version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@remix-run/server-runtime':
         specifier: ^1.19.2
         version: 1.19.2
@@ -484,8 +484,8 @@ importers:
         specifier: ^2.0.0
         version: 2.4.1(typescript@5.3.3)
       '@remix-run/react':
-        specifier: ^1.19.2
-        version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^2.0.0
+        version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@remix-run/server-runtime':
         specifier: ^1.19.2
         version: 1.19.2
@@ -551,8 +551,8 @@ importers:
         specifier: ^2.0.0
         version: 2.4.1(typescript@5.3.3)
       '@remix-run/react':
-        specifier: ^1.19.2
-        version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^2.0.0
+        version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@remix-run/server-runtime':
         specifier: ^1.19.2
         version: 1.19.2
@@ -612,8 +612,8 @@ importers:
         specifier: ^2.0.0
         version: 2.4.1(typescript@5.3.3)
       '@remix-run/react':
-        specifier: ^1.19.2
-        version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^2.0.0
+        version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@remix-run/server-runtime':
         specifier: ^1.19.2
         version: 1.19.2
@@ -1597,8 +1597,8 @@ importers:
         specifier: ^29.7.0
         version: 29.7.0
       '@remix-run/react':
-        specifier: ^1.19.2
-        version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^2.0.0
+        version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@types/react':
         specifier: ^18.2.21
         version: 18.2.21
@@ -1849,8 +1849,8 @@ importers:
         version: link:../sdk-components-react
     devDependencies:
       '@remix-run/react':
-        specifier: ^1.19.2
-        version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^2.0.0
+        version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@types/react':
         specifier: ^18.2.21
         version: 18.2.21
@@ -4896,7 +4896,7 @@ packages:
       busboy: 1.6.0
       dotenv: 10.0.0
       kleur: 4.1.5
-      set-cookie-parser: 2.5.1
+      set-cookie-parser: 2.6.0
       undici: 5.20.0
       urlpattern-polyfill: 4.0.3
     dev: true
@@ -6641,17 +6641,24 @@ packages:
       stream-slice: 0.1.2
       typescript: 5.3.3
 
-  /@remix-run/react@1.19.2(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Q3abYOR02+8wg3mNGYHafGqZUwVv19Et+2ti/8CKTOvY+/rIRppEhDqPCYaiAvNJ7kMcvTdCYKbCi6bU9ElV0g==}
-    engines: {node: '>=14.0.0'}
+  /@remix-run/react@2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-6qfLpijD96fKd276/MOtarf/SkFmWDKXTXzpMQzYTiRXofUDezRGG3VqbkopD1O+jl4BjTuKQvI+7YfLcfGx8w==}
+    engines: {node: '>=18.0.0'}
     peerDependencies:
-      react: '>=16.8.0'
-      react-dom: '>=16.8.0'
+      react: ^18.0.0
+      react-dom: ^18.0.0
+      typescript: ^5.1.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
     dependencies:
-      '@remix-run/router': 1.7.2
+      '@remix-run/router': 1.14.1
+      '@remix-run/server-runtime': 2.4.1(typescript@5.3.3)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-router-dom: 6.14.2(react-dom@18.2.0)(react@18.2.0)
+      react-router: 6.21.1(react@18.2.0)
+      react-router-dom: 6.21.1(react-dom@18.2.0)(react@18.2.0)
+      typescript: 5.3.3
 
   /@remix-run/router@1.14.1:
     resolution: {integrity: sha512-Qg4DMQsfPNAs88rb2xkdk03N3bjK4jgX5fR24eHCTR9q6PrhZQZ4UJBPzCHJkIpTRN1UKxx2DzjZmnC+7Lj0Ow==}
@@ -6837,7 +6844,7 @@ packages:
       tslib: 1.14.1
     dev: false
 
-  /@sentry/remix@7.47.0(@remix-run/node@2.4.1)(@remix-run/react@1.19.2)(react@18.2.0):
+  /@sentry/remix@7.47.0(@remix-run/node@2.4.1)(@remix-run/react@2.4.1)(react@18.2.0):
     resolution: {integrity: sha512-CFWpwmB5nXwBLPdyT5k1TPRyf8+KFxCmOy0R4w/s8FcknnSsu0bIH8FJwDrVtFCq9LPpSlIG0KL/e7OBiiOxfA==}
     engines: {node: '>=14'}
     hasBin: true
@@ -6847,7 +6854,7 @@ packages:
       react: 16.x || 17.x || 18.x
     dependencies:
       '@remix-run/node': 2.4.1(typescript@5.3.3)
-      '@remix-run/react': 1.19.2(react-dom@18.2.0)(react@18.2.0)
+      '@remix-run/react': 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@sentry/cli': 2.2.0
       '@sentry/core': 7.47.0
       '@sentry/node': 7.47.0
@@ -15022,25 +15029,25 @@ packages:
       use-sidecar: 1.1.2(@types/react@18.2.21)(react@18.2.0)
     dev: false
 
-  /react-router-dom@6.14.2(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-5pWX0jdKR48XFZBuJqHosX3AAHjRAzygouMTyimnBPOLdY3WjzUSKhus2FVMihUFWzeLebDgr4r8UeQFAct7Bg==}
-    engines: {node: '>=14'}
+  /react-router-dom@6.21.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-QCNrtjtDPwHDO+AO21MJd7yIcr41UetYt5jzaB9Y1UYaPTCnVuJq6S748g1dE11OQlCFIQg+RtAA1SEZIyiBeA==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.7.2
+      '@remix-run/router': 1.14.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-router: 6.14.2(react@18.2.0)
+      react-router: 6.21.1(react@18.2.0)
 
-  /react-router@6.14.2(react@18.2.0):
-    resolution: {integrity: sha512-09Zss2dE2z+T1D03IheqAFtK4UzQyX8nFPWx6jkwdYzGLXd5ie06A6ezS2fO6zJfEb/SpG6UocN2O1hfD+2urQ==}
-    engines: {node: '>=14'}
+  /react-router@6.21.1(react@18.2.0):
+    resolution: {integrity: sha512-W0l13YlMTm1YrpVIOpjCADJqEUpz1vm+CMo47RuFX4Ftegwm6KOYsL5G3eiE52jnJpKvzm6uB/vTKTPKM8dmkA==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.7.2
+      '@remix-run/router': 1.14.1
       react: 18.2.0
 
   /react-script-hook@1.7.2(react-dom@18.2.0)(react@18.2.0):
@@ -15337,47 +15344,47 @@ packages:
       mdast-util-to-string: 1.1.0
       unist-util-visit: 2.0.3
 
-  /remix-auth-form@1.1.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2):
+  /remix-auth-form@1.1.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2):
     resolution: {integrity: sha512-sQXvmQH6aBoCAy12PcG0r6Sfg+JlMbVEeR3SlWK9R8SXp8TAGks20TO5ofL7dgw38o228eSvwSa3y0z0PDCEDw==}
     peerDependencies:
       '@remix-run/server-runtime': ^1.0.0
     dependencies:
       '@remix-run/server-runtime': 1.19.2
-      remix-auth: 3.2.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)
+      remix-auth: 3.2.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)
     transitivePeerDependencies:
       - '@remix-run/react'
     dev: false
 
-  /remix-auth-github@1.1.1(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react@18.2.0):
+  /remix-auth-github@1.1.1(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)(react@18.2.0):
     resolution: {integrity: sha512-/LHX0u8AsJUV02T2WC+f6NRWqsYwsWJY+1UUSW2E+lXyo6mf6ajlM802Iem/F74OxNVukOYJerwwoludwGJj6Q==}
     peerDependencies:
       '@remix-run/server-runtime': ^1.0.0
     dependencies:
       '@remix-run/server-runtime': 1.19.2
-      remix-auth: 3.2.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)
-      remix-auth-oauth2: 1.2.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react@18.2.0)
+      remix-auth: 3.2.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)
+      remix-auth-oauth2: 1.2.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)(react@18.2.0)
     transitivePeerDependencies:
       - '@remix-run/react'
       - react
       - supports-color
     dev: false
 
-  /remix-auth-google@1.1.0(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react@18.2.0)(remix-auth@3.2.2):
+  /remix-auth-google@1.1.0(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)(react@18.2.0)(remix-auth@3.2.2):
     resolution: {integrity: sha512-yzZ8JEiSoY/cvo5eJQBIzqpnaWOjQkYCgBklCP1QwT01sdR2F066uhV+jR9Wcx0bPCntdMG4PrytVBJzWTg+BA==}
     peerDependencies:
       '@remix-run/server-runtime': ^1.1.1
       remix-auth: ^3.2.1
     dependencies:
       '@remix-run/server-runtime': 1.19.2
-      remix-auth: 3.2.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)
-      remix-auth-oauth2: 1.2.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react@18.2.0)
+      remix-auth: 3.2.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)
+      remix-auth-oauth2: 1.2.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)(react@18.2.0)
     transitivePeerDependencies:
       - '@remix-run/react'
       - react
       - supports-color
     dev: false
 
-  /remix-auth-oauth2@1.2.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react@18.2.0):
+  /remix-auth-oauth2@1.2.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)(react@18.2.0):
     resolution: {integrity: sha512-bbQw/SFAbilSE1zrZFaJN/NM7WUkC63CKJFVz2e/Y21qqMZo5eVQXooSV6d23mABfodeVk6wthngdLAjxak6fQ==}
     peerDependencies:
       '@remix-run/server-runtime': ^1.0.0
@@ -15385,7 +15392,7 @@ packages:
       '@remix-run/server-runtime': 1.19.2
       debug: 4.3.4
       react-dom: 18.2.0(react@18.2.0)
-      remix-auth: 3.2.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)
+      remix-auth: 3.2.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)
       uuid: 8.3.2
     transitivePeerDependencies:
       - '@remix-run/react'
@@ -15393,18 +15400,18 @@ packages:
       - supports-color
     dev: false
 
-  /remix-auth@3.2.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2):
+  /remix-auth@3.2.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2):
     resolution: {integrity: sha512-VtzkfxeXbnXilupRTZkP40aik4vFSdwwRT96mbq0UBDMqHVRfQ7h9Y51HFrTufHJZEfAdkCopedMVvm0vQYKag==}
     peerDependencies:
       '@remix-run/react': ^1.0.0
       '@remix-run/server-runtime': ^1.0.0
     dependencies:
-      '@remix-run/react': 1.19.2(react-dom@18.2.0)(react@18.2.0)
+      '@remix-run/react': 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@remix-run/server-runtime': 1.19.2
       uuid: 8.3.2
     dev: false
 
-  /remix-island@0.1.2(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react-dom@18.2.0)(react@18.2.0):
+  /remix-island@0.1.2(@remix-run/react@2.4.1)(@remix-run/server-runtime@1.19.2)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-1vXF56y7ZKb8caUduCKdkbxObAxZnTO+arQ94QlwKK6a7wVozGCfiOOk3lr919rm7cy54eeqOVI0hud3cfHlLg==}
     peerDependencies:
       '@remix-run/react': '>= 1'
@@ -15412,7 +15419,7 @@ packages:
       react: '>= 16.8'
       react-dom: '>= 16.8'
     dependencies:
-      '@remix-run/react': 1.19.2(react-dom@18.2.0)(react@18.2.0)
+      '@remix-run/react': 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@remix-run/server-runtime': 1.19.2
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
