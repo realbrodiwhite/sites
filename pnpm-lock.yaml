@@ -411,8 +411,8 @@ importers:
         specifier: ^2.0.0
         version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@remix-run/server-runtime':
-        specifier: ^1.19.2
-        version: 1.19.2
+        specifier: ^2.0.0
+        version: 2.4.1(typescript@5.3.3)
       '@size-limit/file':
         specifier: ^11.0.0
         version: 11.0.1(size-limit@9.0.0)
@@ -479,7 +479,7 @@ importers:
         version: 2.4.1
       '@netlify/remix-edge-adapter':
         specifier: 3.1.0
-        version: 3.1.0(@remix-run/server-runtime@1.19.2)
+        version: 3.1.0(@remix-run/server-runtime@2.4.1)
       '@remix-run/node':
         specifier: ^2.0.0
         version: 2.4.1(typescript@5.3.3)
@@ -487,8 +487,8 @@ importers:
         specifier: ^2.0.0
         version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@remix-run/server-runtime':
-        specifier: ^1.19.2
-        version: 1.19.2
+        specifier: ^2.0.0
+        version: 2.4.1(typescript@5.3.3)
       '@webstudio-is/form-handlers':
         specifier: workspace:*
         version: link:../../packages/form-handlers
@@ -554,8 +554,8 @@ importers:
         specifier: ^2.0.0
         version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@remix-run/server-runtime':
-        specifier: ^1.19.2
-        version: 1.19.2
+        specifier: ^2.0.0
+        version: 2.4.1(typescript@5.3.3)
       '@webstudio-is/form-handlers':
         specifier: workspace:*
         version: link:../../packages/form-handlers
@@ -615,8 +615,8 @@ importers:
         specifier: ^2.0.0
         version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@remix-run/server-runtime':
-        specifier: ^1.19.2
-        version: 1.19.2
+        specifier: ^2.0.0
+        version: 2.4.1(typescript@5.3.3)
       '@webstudio-is/form-handlers':
         specifier: workspace:*
         version: link:../../packages/form-handlers
@@ -5089,21 +5089,21 @@ packages:
       - typescript
     dev: false
 
-  /@netlify/remix-edge-adapter@3.1.0(@remix-run/server-runtime@1.19.2):
+  /@netlify/remix-edge-adapter@3.1.0(@remix-run/server-runtime@2.4.1):
     resolution: {integrity: sha512-BSZP3ZN0mSbbsntYDV+7NGo15R5yhs0cm2NJGEDQlABmHwgJbAKxnk1hsztk4WcoQ7HK2jX8bOc4Lk6YNCQE1w==}
     dependencies:
-      '@netlify/remix-runtime': 2.1.0(@remix-run/server-runtime@1.19.2)
+      '@netlify/remix-runtime': 2.1.0(@remix-run/server-runtime@2.4.1)
       isbot: 3.7.1
     transitivePeerDependencies:
       - '@remix-run/server-runtime'
     dev: false
 
-  /@netlify/remix-runtime@2.1.0(@remix-run/server-runtime@1.19.2):
+  /@netlify/remix-runtime@2.1.0(@remix-run/server-runtime@2.4.1):
     resolution: {integrity: sha512-kXP7D6Rp2KkFWWV+il7ZaPQsa/uFpxwn9MC95kPRbJEnkGBMPvqFr1zk6Kjgmf28Ymqg3oXHBIv8pIKRctssBQ==}
     peerDependencies:
       '@remix-run/server-runtime': ^2.0.0
     dependencies:
-      '@remix-run/server-runtime': 1.19.2
+      '@remix-run/server-runtime': 2.4.1(typescript@5.3.3)
     dev: false
 
   /@netlify/serverless-functions-api@1.12.3:
@@ -6700,7 +6700,7 @@ packages:
       '@types/cookie': 0.4.1
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.4.2
-      set-cookie-parser: 2.5.1
+      set-cookie-parser: 2.6.0
       source-map: 0.7.4
     dev: false
 
@@ -15698,10 +15698,6 @@ packages:
 
   /set-blocking@2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
-    dev: false
-
-  /set-cookie-parser@2.5.1:
-    resolution: {integrity: sha512-1jeBGaKNGdEq4FgIrORu/N570dwoPYio8lSoYLWmX7sQ//0JY08Xh9o5pBcgmHQ/MbsYp/aZnOe1s1lIsbLprQ==}
     dev: false
 
   /set-cookie-parser@2.6.0:
