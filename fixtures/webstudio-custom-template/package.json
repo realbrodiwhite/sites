@@ -15,7 +15,7 @@
   "sideEffects": false,
   "dependencies": {
     "@remix-run/react": "^2.0.0",
-    "@remix-run/server-runtime": "^1.19.2",
+    "@remix-run/server-runtime": "^2.0.0",
     "@remix-run/node": "^2.0.0",
     "@webstudio-is/react-sdk": "workspace:*",
     "@webstudio-is/sdk-components-react-radix": "workspace:*",
