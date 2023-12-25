@@ -414,8 +414,8 @@ importers:
         specifier: ^1.19.2
         version: 1.19.2
       '@size-limit/file':
-        specifier: ^9.0.0
-        version: 9.0.0(size-limit@9.0.0)
+        specifier: ^11.0.0
+        version: 11.0.1(size-limit@9.0.0)
       '@webstudio-is/form-handlers':
         specifier: workspace:*
         version: link:../../packages/form-handlers
@@ -6904,13 +6904,12 @@ packages:
       '@sinonjs/commons': 3.0.0
     dev: true
 
-  /@size-limit/file@9.0.0(size-limit@9.0.0):
-    resolution: {integrity: sha512-oM2UaH2FRq4q22k+R+P6xCpzET10T94LFdSjb9svVu/vOD7NaB9LGcG6se8TW1BExXiyXO4GEhLsBt3uMKM3qA==}
+  /@size-limit/file@11.0.1(size-limit@9.0.0):
+    resolution: {integrity: sha512-ioSYJ1WY66kc9+3dgTHi5mT/gcaNNCJ22xU87cjzfKiNxmol+lGsNKbplmrJf+QezvPH9kRIFOWxBjGY+DOt3g==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
-      size-limit: 9.0.0
+      size-limit: 11.0.1
     dependencies:
-      semver: 7.5.4
       size-limit: 9.0.0
     dev: false
 
