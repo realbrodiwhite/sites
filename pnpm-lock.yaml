@@ -137,8 +137,8 @@ importers:
         specifier: ^0.2.3
         version: 0.2.3
       '@vercel/remix':
-        specifier: ^1.19.2
-        version: 1.19.2(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^2.0.0
+        version: 2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@webstudio-is/ai':
         specifier: workspace:*
         version: link:../../packages/ai
@@ -8550,18 +8550,20 @@ packages:
       - encoding
     dev: false
 
-  /@vercel/remix@1.19.2(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-mO7+uLUWqg5soc9xP2lNd4f7/G27Q4QfUVmLbo512Fwq+q83Uw1UcYKRvoFzljrZfnYyUbBd5KRpH3jw7wA0TQ==}
-    engines: {node: '>=14'}
+  /@vercel/remix@2.4.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-Wq3WlaHQmqjWyzEuf8iJENajhTd6GMOqwa9Os7BcfA2HgyJkKWhslsewkj1wrPmKfxLvR0GTxH9RFfRvz0ivpg==}
+    engines: {node: '>=18.0.0'}
     peerDependencies:
       react: '*'
       react-dom: '*'
     dependencies:
-      '@remix-run/node': 1.19.2
-      '@remix-run/server-runtime': 1.19.2
-      isbot: 3.6.13
+      '@remix-run/node': 2.4.1(typescript@5.3.3)
+      '@remix-run/server-runtime': 2.4.1(typescript@5.3.3)
+      isbot: 3.7.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+    transitivePeerDependencies:
+      - typescript
     dev: false
 
   /@vitejs/plugin-react@3.1.0(vite@4.4.12):
