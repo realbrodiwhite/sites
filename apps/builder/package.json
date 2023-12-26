@@ -75,7 +75,7 @@
     "date-fns": "^3.0.0",
     "debug": "^4.3.4",
     "detect-font": "^0.1.5",
-    "downshift": "^6.1.7",
+    "downshift": "^8.0.0",
     "hono": "^3.11.7",
     "hyphenate-style-name": "^1.0.4",
     "immer": "^10.0.3",
